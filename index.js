@@ -88,4 +88,4 @@ app.delete('/api/categorias/:nombre', (req, res) => {
     res.json({ mensaje: 'OK' });
 });
 
-app.listen(3000, () => console.log('Servidor corriendo en https://eisenhower-backend.soltechn.cloud:3000'));
+app.listen(3000, () => console.log('Servidor corriendo en https://eisenhower-backend.soltechn.cloud'));
