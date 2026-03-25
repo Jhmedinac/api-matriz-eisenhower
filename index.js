@@ -88,4 +88,4 @@ app.delete('/api/categorias/:nombre', (req, res) => {
     res.json({ mensaje: 'OK' });
 });
 
-app.listen(3000, () => console.log('Servidor corriendo en http://localhost:3000'));
+app.listen(3000, () => console.log('Servidor corriendo en eisenhower-backend-dogg5r-c225d2-72-61-3-11.traefik.me:3000'));
